@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'models/transaction.dart';
 import './widgets/transaction_list.dart';
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -20,11 +19,8 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-
-
   // String titleInput;
   // String amountInput;
-
 
   @override
   Widget build(BuildContext context) {
@@ -49,6 +45,6 @@ class MyHomePage extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ); 
   }
 }
